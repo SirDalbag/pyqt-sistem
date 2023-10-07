@@ -1,1 +1,1 @@
-# pyqt-sistem
+# pyqt system

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>System</class>
+ <widget class="QWidget" name="System">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Bahnschrift</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>System Manage</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>701</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="name_label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="name_input">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="id_input">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="desc_input">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="desc_label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="id_label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="status_input">
+      <property name="font">
+       <font>
+        <family>Bahnschrift</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="status_label">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>701</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="add_btn">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Add System</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="update_btn">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Update System</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="delete_btn">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Delete System</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="view_btn">
+      <property name="font">
+       <font>
+        <family>Bahnschrift SemiBold</family>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>View System</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListWidget" name="system_view">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>701</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
